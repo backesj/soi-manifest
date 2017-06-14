@@ -3,6 +3,7 @@
   <remote fetch="../seL4" name="seL4"/>
   <remote fetch="../sel4proj" name="sel4proj"/>
   <remote fetch="../backesj" name="origin"/>
+  <remote fetch="../smaccm" name ="smaccm"/>
   
   <default remote="seL4" revision="master"/>
   
@@ -59,4 +60,5 @@
     <linkfile dest="libs/libelf" src="libelf"/>
     <linkfile dest="libs/libutils" src="libutils"/>
   </project>
+  <project remote="smaccm" name="DARPA-bsp.git" path="projects/DARPA-tk1"/>
 </manifest>
