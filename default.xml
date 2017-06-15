@@ -51,7 +51,8 @@
     <linkfile dest="libs/libsel4arm-vmm" src="libsel4arm-vmm"/>
     <linkfile dest="libs/libsel4vchan" src="libsel4vchan"/>
   </project>
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="ee37ef2615a2acbd3688e66136f5b3deaadab125" upstream="master">
+  <!-- <project name="seL4_tools.git" path="projects/seL4_tools" revision="ee37ef2615a2acbd3688e66136f5b3deaadab125" upstream="master"> -->
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="fe5db52215e551771fe6662591edcacd727de0d9" upstream="master">
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
