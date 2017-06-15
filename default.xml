@@ -19,7 +19,8 @@
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
     <linkfile dest="libs/libsel4muslccamkes" src="libsel4muslccamkes"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="6f50ef7410b1ca0783b3b6121c235df48c71aea0" upstream="master">
+  <project name="capdl.git" path="projects/capdl" revision="39c062a6745d7e5a74fbba150f870aaa42cd54da" upstream="master">
+      <!-- <project name="capdl.git" path="projects/capdl" revision="6f50ef7410b1ca0783b3b6121c235df48c71aea0" upstream="master"> -->
     <linkfile dest="apps/capdl-loader-experimental" src="capdl-loader-app"/>
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
