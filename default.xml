@@ -12,15 +12,15 @@
     <linkfile dest="configs" src="configs"/>
     <linkfile dest="apps/vm" src="apps/vm"/>
   </project>
-  <project name="camkes-tool.git" path="tools/camkes" revision="9a5e9187bf235309d17b8214477fdc92150acbcc" upstream="next">
-      <!-- <project name="camkes-tool.git" path="tools/camkes" revision="c0f2e9009c781c4bb3004d46b7ae3258fbf47a60" upstream="next"> -->
+  <!--<project name="camkes-tool.git" path="tools/camkes" revision="9a5e9187bf235309d17b8214477fdc92150acbcc" upstream="next">-->
+  <project name="camkes-tool.git" path="tools/camkes" revision="c0f2e9009c781c4bb3004d46b7ae3258fbf47a60" upstream="next">
     <linkfile dest="Makefile" src="toplevel.mk"/>
     <linkfile dest="Kbuild" src="Kbuild"/>
     <linkfile dest="libs/libsel4camkes" src="libsel4camkes"/>
     <linkfile dest="libs/libsel4muslccamkes" src="libsel4muslccamkes"/>
   </project>
-  <project name="capdl.git" path="projects/capdl" revision="39c062a6745d7e5a74fbba150f870aaa42cd54da" upstream="master">
-      <!-- <project name="capdl.git" path="projects/capdl" revision="6f50ef7410b1ca0783b3b6121c235df48c71aea0" upstream="master"> -->
+  <!--<project name="capdl.git" path="projects/capdl" revision="39c062a6745d7e5a74fbba150f870aaa42cd54da" upstream="master">-->
+  <project name="capdl.git" path="projects/capdl" revision="6f50ef7410b1ca0783b3b6121c235df48c71aea0" upstream="master">
     <linkfile dest="apps/capdl-loader-experimental" src="capdl-loader-app"/>
     <linkfile dest="tools/capDL" src="capDL-tool"/>
     <linkfile dest="tools/python-capdl" src="python-capdl-tool"/>
@@ -51,8 +51,8 @@
     <linkfile dest="libs/libsel4arm-vmm" src="libsel4arm-vmm"/>
     <linkfile dest="libs/libsel4vchan" src="libsel4vchan"/>
   </project>
-  <!-- <project name="seL4_tools.git" path="projects/seL4_tools" revision="ee37ef2615a2acbd3688e66136f5b3deaadab125" upstream="master"> -->
-  <project name="seL4_tools.git" path="projects/seL4_tools" revision="fe5db52215e551771fe6662591edcacd727de0d9" upstream="master">
+  <project name="seL4_tools.git" path="projects/seL4_tools" revision="ee37ef2615a2acbd3688e66136f5b3deaadab125" upstream="master">
+      <!--<project name="seL4_tools.git" path="projects/seL4_tools" revision="fe5db52215e551771fe6662591edcacd727de0d9" upstream="master">-->
     <linkfile dest="tools/common" src="common-tool"/>
     <linkfile dest="tools/elfloader" src="elfloader-tool"/>
     <linkfile dest="tools/kbuild" src="kbuild-tool"/>
