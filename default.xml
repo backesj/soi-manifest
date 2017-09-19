@@ -8,7 +8,7 @@
   
   <default remote="seL4" revision="master"/>
   
-  <project name="OpenUxAS.git" path="OpenUxAS" revision="sel4" upstream="afrl-rq">
+  <project name="OpenUxAS.git" path="OpenUxAS" remote="afrl-rq" revision="sel4" upstream="afrl-rq">
     <linkfile dest="apps/soi_tk1" src="sel4_artifacts/UxASSeL4"/>
   </project>
 
