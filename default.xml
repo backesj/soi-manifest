@@ -4,9 +4,14 @@
   <remote fetch="../sel4proj" name="sel4proj"/>
   <remote fetch="../backesj" name="origin"/>
   <remote fetch="../smaccm" name ="smaccm"/>
+  <remote fetch="../afrl-rq" name ="afrl-rq"/>
   
   <default remote="seL4" revision="master"/>
   
+  <project name="OpenUxAS.git" path="OpenUxAS" revision="sel4" upstream="afrl-rq">
+    <linkfile dest="apps/soi_tk1" src="sel4_artifacts/UxASSeL4"/>
+  </project>
+
   <project name="camkes-arm-vm.git" path="projects/vm" remote="origin" revision="soi" upstream="sel4proj">
     <linkfile dest="Kconfig" src="Kconfig"/>
     <linkfile dest="configs" src="configs"/>
